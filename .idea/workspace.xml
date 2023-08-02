@@ -5,27 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b77b3d70-c6f8-4310-a12d-04012861e934" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Exo/01_todolist/todolist-serv/.env" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Exo/01_todolist/todolist-serv/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Exo/01_todolist" beforeDir="false" afterPath="$PROJECT_DIR$/Exo/01_todolist" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Exo/01_todolist/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/Exo/01_todolist/todolist-serv/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Exo/01_todolist/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Exo/01_todolist/package-lock.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Exo/01_todolist/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Exo/01_todolist/public/favicon.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Exo/01_todolist/public/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Exo/01_todolist/public/logo192.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Exo/01_todolist/public/logo512.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Exo/01_todolist/public/manifest.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Exo/01_todolist/public/robots.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Exo/01_todolist/src/App.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Exo/01_todolist/src/App.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Exo/01_todolist/src/App.test.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Exo/01_todolist/src/index.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Exo/01_todolist/src/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Exo/01_todolist/src/logo.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Exo/01_todolist/src/reportWebVitals.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Exo/01_todolist/src/setupTests.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,6 +55,7 @@
       <recent name="$PROJECT_DIR$/Exo/01-calculatrice/src/body" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Exo/01_todolist/todolist-web/src/Header" />
       <recent name="$PROJECT_DIR$/Exo/01_todolist/mern" />
       <recent name="$PROJECT_DIR$/Exo/01_todolist/src" />
       <recent name="$PROJECT_DIR$/Exo/01_todolist/src/Index" />
@@ -90,7 +71,7 @@
       <option name="presentableId" value="Default" />
       <updated>1690809584835</updated>
       <workItem from="1690809585933" duration="4742000" />
-      <workItem from="1690962865830" duration="11594000" />
+      <workItem from="1690962865830" duration="20793000" />
     </task>
     <servers />
   </component>
