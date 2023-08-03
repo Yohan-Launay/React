@@ -72,6 +72,33 @@ app.get('/list', async (req, res) => {
     }
 });
 
+app.delete('/delete/:id', async (req, res) => {
+    try {
+        const taskId = req.params.id;
+
+        // Utilisez la méthode Mongoose pour supprimer la tâche de la base de données par son ID
+        await Todolist.findByIdAndRemove(taskId);
+
+        res.json({ message: 'Tâche supprimée avec succès' });
+    } catch (err) {
+        res.status(500).json({ error: 'Erreur lors de la suppression de la tâche' });
+    }
+});
+
+app.put('/update/:id', async (req, res) => {
+    try {
+        const taskId = req.params.id;
+        const updatedTask = req.body; // Les données mises à jour sont envoyées dans le corps de la requête
+
+        // Utilisez la méthode Mongoose pour mettre à jour la tâche de la base de données par son ID
+        const updatedData = await Todolist.findByIdAndUpdate(taskId, updatedTask, { new: true });
+
+        res.json(updatedData); // Renvoie la tâche mise à jour en réponse
+    } catch (err) {
+        res.status(500).json({ error: 'Erreur lors de la mise à jour de la tâche' });
+    }
+});
+
 app.listen(PORT, () => {
     console.log(`Server listening on ${PORT}`);
 });

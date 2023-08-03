@@ -10,8 +10,21 @@
   ul {
     padding: 5px;
     li {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
       border-bottom: 1px solid darkgrey;
       list-style: none;
+      button {
+        background: none;
+        border: none;
+        color: white;
+        svg {
+          cursor: pointer;
+
+          font-size: 20px;
+        }
+      }
     }
     li:last-child {
       border: none;
