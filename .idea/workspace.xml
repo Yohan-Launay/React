@@ -5,8 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b77b3d70-c6f8-4310-a12d-04012861e934" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/01_todolist/todolist-cli/src/From/Form.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/01_todolist/todolist-cli/src/List/List.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/01_todolist/todolist-cli/src/List/List.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/01_todolist/todolist-cli/src/List/List.test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/01_todolist/todolist-serv/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/01_todolist/todolist-serv/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/01_todolist/todolist-serv/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/01_todolist/todolist-serv/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/01_todolist/todolist-serv/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/01_todolist/todolist-serv/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/01_todolist/todolist-web/.gitignore" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/01_todolist/todolist-web/README.md" beforeDir="false" />
@@ -19,8 +25,8 @@
       <change beforePath="$PROJECT_DIR$/01_todolist/todolist-web/public/manifest.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/01_todolist/todolist-web/public/robots.txt" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/01_todolist/todolist-web/src/Form/Form.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/01_todolist/todolist-web/src/Form/Form.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/01_todolist/todolist-web/src/Form/Form.test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/01_todolist/todolist-web/src/Form/Form.scss" beforeDir="false" afterPath="$PROJECT_DIR$/01_todolist/todolist-cli/src/From/Form.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/01_todolist/todolist-web/src/Form/Form.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/01_todolist/todolist-cli/src/From/Form.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/01_todolist/todolist-web/src/Header/Header.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/01_todolist/todolist-web/src/Header/Header.scss" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/01_todolist/todolist-web/src/Header/Header.test.js" beforeDir="false" />
@@ -29,7 +35,6 @@
       <change beforePath="$PROJECT_DIR$/01_todolist/todolist-web/src/logo.svg" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/01_todolist/todolist-web/src/reportWebVitals.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/01_todolist/todolist-web/src/setupTests.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Exo/01_todolist" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -95,7 +100,7 @@
       <option name="presentableId" value="Default" />
       <updated>1690809584835</updated>
       <workItem from="1690809585933" duration="4742000" />
-      <workItem from="1690962865830" duration="23195000" />
+      <workItem from="1690962865830" duration="32105000" />
     </task>
     <servers />
   </component>
