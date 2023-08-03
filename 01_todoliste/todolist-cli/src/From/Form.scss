@@ -1,0 +1,35 @@
+.form_list {
+  position: sticky;
+  top: 50px;
+  display: block;
+  line-height: 1.4;
+  letter-spacing: 0.2px;
+  background-color: rgba(189,189,189,0.1);
+  padding: 15px 8px 15px 17px;
+  border-radius: 5px;
+  width: 40%;
+  margin: 10px;
+  form {
+    padding: 10px;
+    label {
+      input, textarea {
+        width: 100%;
+      }
+      textarea {
+        height: 100px;
+      }
+    }
+    button {
+      cursor: pointer;
+      background-color: rgb(5, 25, 55);
+      color: rgb(221, 221, 221);
+      border: none;
+      padding: 10px 25px;
+      transition: 0.5s;
+    }
+    button:hover {
+      background-color: rgb(2, 10, 25);
+    }
+  }
+
+}
