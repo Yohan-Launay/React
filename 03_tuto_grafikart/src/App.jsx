@@ -1,34 +1,24 @@
-const title = "Bonjour les <strong>gens</strong>";
-const style = {color: 'red', backgroundColor: 'blue'};
-const showTitle = false;
-const todos = [
-    'Présenter react',
-    'Présenter le JSX',
-    'Créer des composants'
-]
-
+import {useState} from "react";
 
 function App() {
+
+  const [person, setPerson] = useState({
+    firstName: 'John',
+    lastName: 'Doe',
+    age: 18
+  })
+
+  const [count, setCount] = useState(0);
+
+  const incrementAge =  () => {
+    setPerson({...person, age: person.age + 1})
+  }
+
   return <>
-    <Title color="green" id="monid" className="demo" data-demo="demo">
-      Mon composant
-    </Title>
-    <input type="text"/>
-    <p>
-      Lorem
-    </p>
-    <ul>
-      {todos.map(todo => (<li key={todo}>{todo}</li>))}
-    </ul>
+    <p>Age de {person.firstName} : {person.age}</p>
+    <button onClick={incrementAge}>Gagner une année</button>
   </>
 }
 
-function Title ({color, hidden, children, ...props}) {
-  if (hidden) {
-    return null
-  }
-
-  return <h1 style={{color: color}} {...props}>{children}</h1>
-}
 
 export default App
