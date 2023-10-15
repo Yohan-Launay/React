@@ -2,22 +2,21 @@ import {useState} from "react";
 
 function App() {
 
-  const [person, setPerson] = useState({
-    firstName: 'John',
-    lastName: 'Doe',
-    age: 18
-  })
-
-  const [count, setCount] = useState(0);
-
-  const incrementAge =  () => {
-    setPerson({...person, age: person.age + 1})
+  const [value, setValue] = useState('')
+  const handleChange = (e) => {
+    setValue(e.target.value)
   }
 
-  return <>
-    <p>Age de {person.firstName} : {person.age}</p>
-    <button onClick={incrementAge}>Gagner une année</button>
-  </>
+  const [checked, setChecked] = useState(true)
+  const toggleCheck = () => {
+    setChecked(!checked)
+  }
+
+  return <form>
+    <textarea value={value} onChange={handleChange}/>
+    <input type="checkbox" checked={checked} onChange={toggleCheck}/>
+    <button disabled={!checked}>Envoyer</button>
+  </form>
 }
 
 
